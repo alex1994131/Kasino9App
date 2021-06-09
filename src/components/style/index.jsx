@@ -1,0 +1,206 @@
+import { LAYOUT, COLOR } from "../../constants";
+import { StyleSheet } from 'react-native';
+
+export const CollapseStyle = StyleSheet.create({
+    container:{
+        marginTop:LAYOUT.window.height*0.005
+    },
+    header:{
+        backgroundColor:COLOR.headerColor, 
+        borderRadius:3
+    },
+    separator:{
+        backgroundColor:'rgba(0,0,0,0)'
+    },
+    title:{
+        color:COLOR.whiteColor,
+        fontSize:LAYOUT.window.width*0.027,
+    },
+    body:{
+        backgroundColor:COLOR.headerColor,
+        padding:LAYOUT.window.width*0.03
+    },
+    text:{
+        fontSize:LAYOUT.window.width*0.025,
+        color:COLOR.whiteColor
+    }
+})
+export const FooterTextScreenStyle = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        padding:LAYOUT.window.width*0.02,
+    },  
+    text:{
+        color:COLOR.greyColor,
+        fontSize:LAYOUT.window.width*0.025,
+    },
+})
+
+export const GetInTouchScreenStyle = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        width:LAYOUT.window.width*.5,
+        padding:LAYOUT.window.width*0.01
+    },   
+    text:{
+        color:COLOR.greyColor,
+        fontSize:LAYOUT.window.width*0.03,
+        fontWeight:'bold'
+    },
+    content:{
+        flexDirection:'row',
+    }
+})
+
+export const QuickLinkScreenStyle = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        width:LAYOUT.window.width*0.5,
+        padding:LAYOUT.window.width*0.01
+    },  
+    firstImage:{
+        padding:LAYOUT.window.width*0.01,
+    },
+    image:{
+        borderRadius:LAYOUT.window.width*0.01,
+        height:LAYOUT.window.height*0.05,
+    }, 
+    text:{
+        color:COLOR.greyColor,
+        fontSize:LAYOUT.window.width*0.03,
+        fontWeight:'bold'
+    },
+    text1:{
+        color:COLOR.whiteColor,
+        fontSize:LAYOUT.window.width*0.025,
+        fontWeight:'bold',
+        padding:LAYOUT.window.width*0.01
+    },
+    content:{
+        flexDirection:'row',
+        width:'100%'
+    }
+})
+
+export const GameProviderScreenStyle = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        width:LAYOUT.window.width,
+        padding:LAYOUT.window.width*0.01
+    },  
+    firstImage:{
+        padding:LAYOUT.window.width*0.01,
+    },
+    image:{
+        borderRadius:LAYOUT.window.width*0.01,
+        height:LAYOUT.window.height*0.02,
+    }, 
+    text:{
+        color:COLOR.greyColor,
+        fontSize:LAYOUT.window.width*0.03,
+        fontWeight:'bold'
+    }
+})
+
+export const PaymentMethodStyle = StyleSheet.create({
+    container:{
+        alignItems:'center',
+        width:LAYOUT.window.width,
+        padding:LAYOUT.window.width*0.01
+    },  
+    firstImage:{
+        padding:LAYOUT.window.width*0.01,
+    },
+    image:{
+        borderRadius:LAYOUT.window.width*0.01,
+        height:LAYOUT.window.height*0.02,
+    }, 
+    text:{
+        color:COLOR.greyColor,
+        fontSize:LAYOUT.window.width*0.03,
+        fontWeight:'bold'
+    }
+})
+export const SportsTabStyle = StyleSheet.create({
+    container:{
+        justifyContent:'center', 
+        margin:LAYOUT.window.width*0.01,
+        alignItems:'center',
+        maxWidth:LAYOUT.window.width*0.15,
+    },
+    button:{
+        height:LAYOUT.window.width*0.12,
+        width:LAYOUT.window.width*0.12,
+        justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:COLOR.green2Color,
+        padding:LAYOUT.window.width*0.035,
+        borderRadius:LAYOUT.window.width*0.02
+    },
+    activeText:{
+        width:LAYOUT.window.width*0.12, 
+        textAlign:'center',
+    },
+    activeItem:{
+        width:LAYOUT.window.width*0.03, 
+        height:3, 
+    },
+})
+export const SportsTabScreenStyle = StyleSheet.create({
+    container:{
+        borderTopLeftRadius:LAYOUT.window.width*0.03,
+        borderTopRightRadius:LAYOUT.window.width*0.03,
+        backgroundColor:COLOR.green2Color,
+    },
+    title:{
+        width:'100%', 
+        marginTop:LAYOUT.window.width*0.05,
+        marginBottom:LAYOUT.window.width*0.01,
+        marginLeft:LAYOUT.window.width*0.05,
+        marginRight:LAYOUT.window.width*0.05,
+        alignItems:'center',
+        flexDirection:'row',
+    },
+    titleName:{
+        fontSize:LAYOUT.window.width*0.03,
+        marginLeft:LAYOUT.window.width*0.01,
+        color:COLOR.whiteColor,
+    },
+    tabContainer:{
+        marginLeft:LAYOUT.window.width*0.03,
+        marginRight:LAYOUT.window.width*0.03,
+        flexDirection:'row'
+    },
+    tabItem:{
+        margin:LAYOUT.window.width*0.02
+    },
+    tabItemText:{
+        fontSize:LAYOUT.window.width*0.025, 
+        fontWeight:'500'
+    },
+    tabItemActive:{
+        height:2.2, 
+        marginTop:3,
+        width:'100%', 
+    },
+    homeBox:{
+        borderTopWidth:1.5, 
+        borderBottomWidth:1.5,
+        borderColor:COLOR.white1Color
+    },
+    homeChild:{
+        flexDirection:'row',
+        alignItems:'center',
+        margin:LAYOUT.window.width*0.05,
+        marginTop:LAYOUT.window.width*0.01,
+        marginBottom:LAYOUT.window.width*0.01
+    },
+    homeText:{
+        color:COLOR.grey1Color, 
+        fontSize:LAYOUT.window.width*0.025
+    },
+    sportsText:{
+        color:COLOR.greenColor, 
+        fontSize:LAYOUT.window.width*0.025
+    }
+})

@@ -1,0 +1,53 @@
+{
+  "scripts": {
+    "start": "expo start",
+    "android": "expo build:android",
+    "ios": "expo build:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "~1.12.0",
+    "@react-native-community/datetimepicker": "3.0.4",
+    "@react-native-community/slider": "3.0.3",
+    "accordion-collapse-react-native": "^0.3.2",
+    "axios": "^0.20.0",
+    "expo": "^40.0.0",
+    "expo-image-picker": "~9.2.0",
+    "expo-splash-screen": "~0.8.1",
+    "moment": "^2.29.1",
+    "native-base": "^2.15.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-collapse-view": "^1.0.0",
+    "react-native-daterange-picker": "^1.5.1",
+    "react-native-draggable": "^3.3.0",
+    "react-native-elements": "^2.3.2",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-multi-select-picker": "^1.0.11",
+    "react-native-normalize": "^1.0.1",
+    "react-native-phone-input": "^0.2.4",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "~2.15.2",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "12.1.0",
+    "react-native-table-component": "^1.2.1",
+    "react-native-webview": "11.0.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "babel-jest": "~25.2.6",
+    "babel-preset-expo": "8.3.0",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.11.0"
+  },
+  "private": true,
+  "name": "kasino9",
+  "version": "1.0.0"
+}
